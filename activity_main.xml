@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/steam_dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/steam_header"
+        android:padding="12dp"
+        android:elevation="6dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎮 Steam News"
+            android:textColor="@color/steam_blue_light"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show last"
+                android:textColor="@color/steam_text_light"
+                android:textSize="14sp"
+                android:paddingEnd="6dp" />
+
+            <EditText
+                android:id="@+id/days_input"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:hint="days"
+                android:textColorHint="@color/steam_text_dim"
+                android:textColor="@color/steam_text_light"
+                android:textSize="14sp"
+                android:inputType="number"
+                android:maxLength="4"
+                android:background="@drawable/input_background"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" days"
+                android:textColor="@color/steam_text_light"
+                android:textSize="14sp"
+                android:paddingEnd="10dp" />
+
+            <Button
+                android:id="@+id/filter_button"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:text="Filter"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/steam_blue"
+                android:textSize="13sp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/result_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loading articles…"
+            android:textColor="@color/steam_text_dim"
+            android:textSize="12sp"
+            android:gravity="end"
+            android:paddingTop="6dp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@color/steam_divider"
+        android:dividerHeight="1dp"
+        android:scrollbarThumbVertical="@color/steam_blue" />
+
+</LinearLayout>
