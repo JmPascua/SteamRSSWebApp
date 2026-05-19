@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SteamNews" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/steam_blue</item>
+        <item name="colorPrimaryDark">@color/steam_header</item>
+        <item name="colorAccent">@color/steam_blue_light</item>
+        <item name="android:windowBackground">@color/steam_dark</item>
+        <item name="android:listSelector">@color/steam_card</item>
+        <item name="android:textColorPrimary">@color/steam_text_light</item>
+    </style>
+</resources>
