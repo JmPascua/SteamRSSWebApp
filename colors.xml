@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="steam_dark">#FF1B2838</color>
+    <color name="steam_header">#FF171A21</color>
+    <color name="steam_card">#FF2A3F5F</color>
+
+    <color name="steam_blue">#FF1B90C8</color>
+    <color name="steam_blue_light">#FF66C0F4</color>
+
+    <color name="steam_text_light">#FFC6D4DF</color>
+    <color name="steam_text_dim">#FF8BA3B5</color>
+
+    <color name="steam_divider">#FF2D4058</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>
