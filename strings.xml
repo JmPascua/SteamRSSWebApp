@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Steam News</string>
+    <string name="filter_hint">days</string>
+    <string name="filter_label">Show last</string>
+    <string name="filter_button">Filter</string>
+    <string name="loading">Loading articles…</string>
+    <string name="results_format">%d article(s) found</string>
+</resources>
